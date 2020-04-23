@@ -1,0 +1,832 @@
+*{
+    transition: 0s ease;
+    -webkit-transition: 0s ease;
+    -moz-transition: 0s ease;
+    -ms-transition: 0s ease;
+    -o-transition: 0s ease;
+}
+
+*,html,body{
+    margin: 0;
+    padding: 0;}
+
+body{font-family: Arial, Loves, Gotham;}
+
+/*===========================*/
+/* colors define */	
+.black{color: black;}
+.white{color: white;}
+.bg-color-dark{background-color: #262431;}
+.bg-color-gray{background-color: #E8E9E6;}
+.bg-color-blue{background-color: #5042F1;}
+.bg-color-purple{background-color: #431860;}
+.bg-color-light-purple{background-color: #d5b7dd;}
+.bg-color-light-blue{background-color: #e1e1fd;}
+.bg-color-light-grey{background-color: #f7f7f7;}
+.btn-bg-color{background-color: #431860;}
+.btn-bg-color:hover{background-color: #27093b;}
+
+.align-left{text-align: left;}
+.align-right{text-align: right;}
+.align-center{text-align: center;}
+
+.display-1{font-size: 3.5rem;}
+.display-2{font-size: 3rem;}
+.display-3{font-size: 2.5rem;}
+.display-4{font-size: 2rem;}
+.display-5{font-size: 1.5rem;}
+.display-6{font-size: 1rem;}
+
+a:hover{text-decoration: none;}
+
+h2{color: #27093b; font-size: 42px; font-weight: bold; text-align: center; margin-top: 40px;}
+h4{color: #636363; font-size: 17px; font-weight: normal; text-align: center; margin-top: -8px;}
+p{letter-spacing: 0.7px;}
+.hr{ 
+	opacity: 0.3;
+	height: 1px;
+	width: 95%;
+	margin-left: 3.7%;
+  	background-color: white;
+  	border: none;}
+/*===========================*/
+
+
+/*===========================*/
+/* Start Navbar Section */
+.logo{margin-top: -7px;}
+.menu{font-size: 15px; font-weight: bold; margin-left: 250px;}
+.menu a{margin-top: 7px; margin-left: 36px;}
+.navbar-light .navbar-nav{margin-left: auto; font-weight: bold;}
+.navbar-light .navbar-nav .nav-item {padding: 0 8px;}
+.navbar-light .navbar-nav .nav-link:hover{color: black;}
+/* End Navbar Section */
+/*===========================*/
+
+
+/*===========================*/
+/* Start Header Section */
+.slide-paragraph1, .slide-paragraph2, .slide-paragraph3{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 70px;
+	letter-spacing: 1.5px;}
+/* End Header Section */
+/*===========================*/
+
+
+/*===========================*/
+/* Services Section */
+.cen{max-width: 1200px; margin: auto; overflow: hidden; padding: 20px 20px 40px 20px;}
+.service{
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 0 -2px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.7s;}
+
+.service:hover{
+	background: #e1e1fd;
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: 1s all ease;
+	-moz-transition: 1s all ease;
+	transition: 1s all ease;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.service .services-icons{font-size: 40px; color: #64BC46; margin-bottom: 10px;}
+.service a h3{color: black; font-size: 19px; text-transform: uppercase; font-weight: 500; margin: 6px 0 6px 0;}
+.service a p{color: gray; font-size: 15px; font-weight: 500;}
+
+@media screen and (max-width: 800px) {.service{width: 50%;} }
+@media screen and (max-width: 500px) {.service{width: 100%;} }
+/* End Services Section */	
+/*===========================*/
+
+
+/*===========================*/
+/* Info Section */
+.info-heading{color: #27093b; margin-top: 65px; width: 590px;}
+.info-paragraph{font-size: 17px; margin-top: 20px; line-height: 28px; width: 675px;}
+.info-img{margin-left: auto;}
+/* End Info Section */
+/*===========================*/
+
+
+/*===========================*/
+/* Portfolio Section */
+.projects-container {
+    width: 350px;
+    height: 260px;
+	margin: 15px;
+	border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    background-color: #431860;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.projects-img{
+	width: 350px;
+	height: 230px;
+	cursor: pointer;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.8s;}
+
+.projects-img:hover{transform: scale(1.3);}
+.row h6{color: #fff; font-size: 0.9rem; font-weight: bold; margin-left: 15px; padding: 6px 0 0 0;}
+.info-row{margin-top: 30px;}
+/* End Portfolio Section */
+/*===========================*/
+
+
+/*===========================*/
+/* Who We Are Section */
+.site-heading{color: #27093b; text-align: center; margin-top: 35px;}
+.why-choose-us-heading{
+	width: 540px;
+	color: #431860;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 50px;
+	line-height: 35px;}
+
+.why-choose-us-paragraph1{width: 540px; font-size: 16px; margin-top: 25px;}
+.why-choose-us-paragraph2{width: 540px; font-size: 16px; margin: 15px 0 25px 0;}
+.why-choose-us-img{margin: 20px 0 20px 80px;}
+/* End Who We Are Section */
+/*===========================*/
+
+
+/*===========================*/
+/* testimonials Section */
+.card-body .row .col p{font-size: 13px; line-height: 25px !important; color: #fff;}
+.small{letter-spacing: 0.5px !important}
+.card{
+    box-shadow: 0px 5px 16px rgba(223, 241, 223, 0.5);
+    transition: 0.8s;
+    background: #333;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 7px !important}
+
+.card-header, .card-footer{border-radius: 7px !important}
+.card:after {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    z-index: 9999;
+    height: 100%;
+    pointer-events: none;}
+
+.card-title img{z-index: 99999 !important}
+.card .layer {
+    position: absolute;
+    top: calc(100% - 5px);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#03a9f4, #e91ee3);
+    left: 0;
+    z-index: 1;
+    transition: 0.5s;}
+
+.card:hover{box-shadow: -5px 50px 100px rgba(223, 241, 223, 0.5);}
+.card:hover hr{background-color: #fff;}
+.card:hover h4{font-weight: 600;}
+.card:hover p{font-weight: 600;}
+.card:hover small{font-weight: 600;}
+.card:hover .layer{top: 0;}
+.card .content {position: relative; z-index: 2;}
+.card .content .img-1{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white !important;}
+
+.card h4{color: #fff; font-weight: 500;}
+.hr2{background-color: rgb(117, 117, 117); width: 100% !important; transition: 1s;}
+.bold {font-weight: 500;}
+#quotes {opacity: 0.1; filter: alpha(opacity=40)}
+
+@media (max-width: 479px) { .img-1 {margin-right: 0 !important} }
+/* End testimonials Section */
+/*===========================*/
+
+
+/*===========================*/
+/* Start Let's Chat Section */
+.lets-chat{height: 290px;}
+.chat{color: white; margin-left: 55px;}
+.chat h3{font-size: 25px; margin-top: 40px;}
+.chat-heading{font-size: 47px; font-weight: bold;}
+.chat-btn{
+	margin-top: 30px;
+	padding: 10px 27px;
+	color: white;
+	border: none;
+	border: 2px solid white;
+	background: transparent;}
+/* End Let's Chat Section */
+/*===========================*/
+
+
+/*===========================*/
+/* Start Contact Us Section */
+.contact-form-submit-btn{
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	padding: 10px 35px;
+	border: none;
+	border-radius: 25px;}
+/* End Contact Us Section */
+/*===========================*/
+
+
+/*===========================*/
+/* Start Footer Section */
+.page-footer{padding: 60px;}
+.bg-color-footer{
+	background: rgb(43,195,216);
+	background: linear-gradient(20deg, rgba(43,195,216,1) 25%, rgba(115,120,238,1) 75%);}
+
+.footer{
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.footer-logo{margin: 25px 0 10px 30px;}
+.social-icons{color: white; float: right; font-size: 20px; margin: 35px 0 10px 0;}
+.footer-menu1{padding: 12px 0 12px 45px;}
+.footer-menu2{padding: 12px 0 12px 16px;}
+ul{margin-left: 45px;}
+.list-unstyled li{margin-bottom: 8px;}
+.list-unstyled li a{color: white; font-size: 13px;}
+.icon{font-size: 16px;}
+.footer-contact{font-size: 12px; margin-bottom: 25px;}
+.input{
+	font-size: 14px;
+	width: 84%;
+	padding: 4px 0px 4px 5px;
+	background: transparent;
+	border: none;
+	border-radius: 5px;
+	border: 1px solid white;
+	margin-left: 16px;}
+
+::placeholder {color: white; opacity: 0.5; }/* Firefox */
+::-ms-input-placeholder {color: white;} /* Internet Explorer 10-11 */
+::-ms-input-placeholder {color: white;} /* Microsoft Edge */
+
+.subs-btn{
+	font-size: 14px;
+	color: white;
+	border:none;
+	border-radius: 25px;
+	padding: 6px 22px;
+	margin: 15px 0 0 16px;}
+
+.footer-copyright{margin: 15px 0 40px 60px; font-size: 13px;}
+.footer-copyright a{color: white;}
+/* End Footer Section */
+/*===========================*/
+
+
+/*===========================*/
+/* Start Contact Us Page Css */
+.title-bg{width: 100%;}
+.centered{position: absolute; top: 32%; left: 50%; transform: translate(-50%, -50%);}
+
+ /* color codes - 64BC46 ABD145*/
+.my-form {color: #305896; margin-left: 20px;}
+.my-form .btn-default{background-color: #305896; color: #fff; border-radius: 0;}
+.my-form .btn-default:hover{background-color: #4498C6; color: #fff;}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;} /* Chrome,Safari,Edge,Opera */
+input[type=number] {-moz-appearance: textfield;} /* Firefox */
+
+.india-gate{border-radius: 15px; width: 550px; height: 375px; margin: 0 10px 50px 0;}
+/* End Contact Us Page Css */
+/*===========================*/
+
+
+/*===========================*/
+/* Start About Us Page Css */
+.centered-about-us{position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);}
+.about-us-p{font-size: 1rem;}
+.about-us-img{border-radius: 15px; width: 540px; height: 375px; margin: 15px 0 0 10px;}
+.about-us{margin: 65px 15px;}
+.counting{margin: 75px 0; text-align: center;}
+.counting .icon{color: white; font-size: 50px; margin-bottom: 0;}
+.counting h3{color: #64BC46; font-size: 34px; font-weight: bold;}
+.counting .name{color: white; font-size: 18px; margin-bottom: 0;}
+.about-us-heading{margin: 10px;}
+/* End About Us Page Css */
+/*===========================*/
+
+
+/*===========================*/
+/* Start Services Page Css */
+.centered-services{position: absolute; top: 32%; left: 50%; transform: translate(-50%, -50%);}
+.services-section{margin: 30px 0 0 0;}
+/* End Services Page Css */
+/*===========================*/
+
+
+/*===========================*/
+.Our-Work-img{
+	width: 325px;
+	height: 185px;
+	margin: 5px 25px;
+	cursor: pointer;
+    overflow: hidden;
+    position: relative;
+	transition: all 1s;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.Our-Work-img:hover{transform: scale(1.2);}
+.Our-Work-p{margin: 0 0 0 35px; color: #431860; font-weight: bold; padding: 15px 0 20px 0;}
+/*===========================*/
+
+
+/***** MEDIA QUERIES *****/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	.display-1{font-size: 3rem;}
+	.display-2{font-size: 2.25rem;}
+	.display-3{font-size: 2rem;}
+	.display-4{font-size: 1.5rem;}
+	.display-5{font-size: 1rem;}
+	
+	.info-heading{font-size: 29px; width: 450px; margin: 50px 0 0 65px;}
+	.info-paragraph{font-size: 16px; width: 450px; margin: 10px 0 0 65px;}
+	.info-img{width: 300px; height: 300px;  margin-right: 50px;}
+
+	.projects-container{width: 270px; height: 210px; margin: 0 0 30px 38px;}
+	.projects-img{width: 270px; height: 180px;}
+	.row h6 {margin-left: 15px;}
+
+	.why-choose-us-heading{width: 420px; font-size: 26px; margin: 30px 0 0 50px;}
+	.why-choose-us-paragraph1{width: 420px; font-size: 15px; margin: 35px 0 0 50px;}
+	.why-choose-us-paragraph2{width: 420px; font-size: 15px; margin: 25px 0 0 50px;}
+	.why-choose-us-img{margin: 25px; width: 420px; height: 350px;}
+
+	.chat{margin: 5px 0 0 50px;}
+	.page-footer{padding: 45px;}
+	.list-unstyled li{margin-bottom: 5px;}
+	.footer-contact{margin-bottom: 15px;}
+
+	.centered{top: 42%;}
+	.centered h3{font-size: 1.5rem;}
+	.india-gate{width: 450px; height: 330px;}
+
+	.centered-about-us{top: 38%;}
+	.about-us-img{width: 450px; height: 330px;}
+	.about-us{margin: 65px;}
+
+	.centered-services{top: 38%;}
+
+	.Our-Work-img{width: 270px; height: 150px; margin: 5px 15px 5px 32px;}
+	.Our-Work-p{margin: 0 0 0 40px;}
+		
+}
+
+@media (min-width: 900px) and (max-width: 991px) {
+
+	.display-1{font-size: 3rem;}
+	.display-2, .display-3{font-size: 2rem;}
+	.display-4{font-size: 1.5rem;}
+	.display-5{font-size: 1rem;}
+
+	.mbr-text{width: 320px;}
+	.slide-paragraph1, .slide-paragraph2, .slide-paragraph3{font-size: 15px; margin-bottom: 35px;}
+
+	.info-heading{font-size: 29px; width: 420px; margin: 30px 0 0 -25px;}
+	.info-paragraph{font-size: 16px; width: 420px; margin: 10px 0 0 -25px;}
+	.info-img{width: 250px; height: 250px; margin-right: -30px;}
+
+	.projects-container{width: 320px; height: 240px; margin: 0 0 30px 30px;}
+	.projects-img{width: 320px; height: 210px;}
+	.row h6 {margin-left: 15px;}
+
+	.why-choose-us-heading{width: 380px; font-size: 26px; margin: 30px 0 0 -35px;}
+	.why-choose-us-paragraph1{width: 380px; font-size: 15px; margin: 25px 0 0 -35px;}
+	.why-choose-us-paragraph2{width: 380px; font-size: 15px; margin: 15px 0 30px -35px;}
+	.why-choose-us-img{margin: 40px 0 0 15px; width: 360px; height: 300px;}
+
+	.chat{margin: 5px 0 0 0;}
+	.page-footer{padding: 45px;}
+	.list-unstyled li{margin-bottom: 3px;}
+	.footer-contact{margin-bottom: 10px;}
+
+	.centered{top: 38%;}
+	.centered h3{font-size: 1.5rem;}
+	.india-gate{width: 420px; height: 300px;}
+
+	.centered-about-us{top: 37%;}
+	.about-us-p{font-size: 0.9rem; line-height: 22px;}
+	.about-us-img{width: 400px; height: 290px;}
+	.about-us{font-size: 1.50rem; margin: 60px 0;}
+
+	.Our-Work-img{width: 325px; height: 185px; margin: 5px 15px;}
+	.Our-Work-p{margin: 0 0 0 25px;}
+
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+
+	.display-1{font-size: 3rem;}
+	.display-2, .display-3{font-size: 2.05rem;}
+	.display-4{font-size: 1.5rem;}
+	.display-5{font-size: 1rem;}
+
+	h2{font-size: 35px;}
+	.slide-heading{line-height: 35px;}
+	.slide-paragraph1, .slide-paragraph2, .slide-paragraph3{font-size: 15px; margin-bottom: 10px;}
+	.mbr-text{width: 300px;}
+
+	.info-heading{font-size: 29px; width: 420px; margin: 30px 0 0 30px;}
+	.info-paragraph{font-size: 15px; width: 420px; margin: 10px 0 0 30px; line-height: 24px;}
+	.info-img{width: 250px; height: 250px; margin-right: 0;}
+
+	.projects-container{width: 320px; height: 240px; margin: 0 0 30px 30px;}
+	.projects-img{width: 320px; height: 210px;}
+	.row h6 {margin-left: 20px;}
+
+	.why-choose-us-heading{width: 700px; font-size: 25px; margin: 30px 0 0 25px;}
+	.why-choose-us-paragraph1{width: 680px; font-size: 16px; margin: 25px 0 0 25px;}
+	.why-choose-us-paragraph2{width: 680px; font-size: 16px; margin: 15px 0 40px 25px;}
+	.why-choose-us-img{display: none;}
+
+	.card{width: 90%;}
+	.chat{margin: 10px 0 0 30px;}
+	
+	.footer-logo{width: 187px; height: 30px; margin: 15px 0 5px 20px;}
+	.social-icons {margin: 20px 0 10px 0;}
+	.footer-menu1{font-size: 16px; padding: 12px 0 12px 29px;}
+	.footer-menu2{font-size: 16px; padding: 12px 0 12px 7px;}
+	.footer-contact{margin-left: -10px;}
+	ul{margin-left: 29px;}
+	.page-footer{padding: 35px;}
+	.list-unstyled li{margin-bottom: 3px;}
+	.footer-contact{margin-bottom: 10px;}
+	.footer-copyright {margin: 10px 0 30px 40px;}
+
+	.contact-form-submit-btn{font-size: 14px; padding: 10px 26px;}
+	.centered{top: 37%;}
+	.centered h3{font-size: 1.5rem;}
+	.india-gate{width: 370px; height: 270px; margin-left: -25px;}
+
+	.centered-about-us{top: 34%;}
+	.about-us-p{font-size: 0.9rem; line-height: 22px;}
+	.about-us-img{width: 350px; height: 250px; margin: 65px 0 0 0;}
+	.about-us{font-size: 1.25rem; margin: 60px;}
+	.counting{margin: 40px 0;}
+	.counting .icon{font-size: 35px;}
+	.counting .name{font-size: 16px;}
+
+	.centered-services{top: 38%;}
+
+	.Our-Work-img{width: 310px; height: 173px; margin: 5px 15px 5px 30px;}
+	.Our-Work-p{margin: 0 0 0 40px;}
+
+}
+
+@media (min-width: 667px) and (max-width: 767px) {
+
+	.display-1{font-size: 2.5rem;}
+	.display-2, .display-3{font-size: 1.9rem;}
+	.display-4{font-size: 1.5rem;}
+	.display-5{font-size: 1rem;}
+
+	h2{font-size: 35px;}
+	.logo{margin-left: -35px;}
+	.slide-paragraph1, .slide-paragraph2, .slide-paragraph3{font-size: 13px; margin-bottom: 0px;}
+	.mbr-text{width: 500px;}
+
+	.info-heading{font-size: 26px; width: 350px; margin: 20px 0 0 -15px;}
+	.info-paragraph{font-size: 14px; width: 350px; margin: 10px 0 10px -15px; line-height: 23px;}
+	.info-img{width: 200px; height: 200px; margin-left: 5px;}
+
+	.info-row{margin: 0 -30px;}
+	.projects-container{width: 260px; height: 200px; margin: 15px 12px;}
+	.projects-img{width: 260px; height: 170px;}
+	.row h6 {margin-left: 15px;}
+
+	.why-choose-us-heading{width: 500px; font-size: 25px; margin: 30px 0 0 25px;}
+	.why-choose-us-paragraph1{width: 500px; font-size: 15px; margin: 25px 0 0 25px;}
+	.why-choose-us-paragraph2{width: 500px; font-size: 15px; margin: 15px 0 40px 25px;}
+	.why-choose-us-img{display: none;}
+
+	.chat{margin: 10px 0 0 0;}
+	.chat-heading {font-size: 40px;}
+	
+	.footer-logo{width: 187px; height: 30px; margin: 15px 0 5px -150px;}
+	.social-icons {margin: 20px 0 10px 0;}
+	.footer-menu1{font-size: 18px; padding: 12px 0 12px 0;}
+	.footer-menu2{font-size: 18px; padding: 12px 0 12px 0;}
+	.footer-contact{margin-left: -10px;}
+	ul{margin-left: 0;}
+	.page-footer{padding: 45px;}
+	.footer-contact{margin-bottom: 10px;}
+	.footer-copyright {margin: 10px 0 30px 35px;}
+
+	.my-form{margin: 20px 0 0 0;}
+	.contact-form-submit-btn{font-size: 15px; padding: 11px 28px;}
+	.centered{top: 33%;}
+	.centered h3{font-size: 1.25rem;}
+	.india-gate{display: none;}
+
+	.centered-about-us{top: 30%;}
+	.counting{margin: 40px 65px;}
+	.about-us-p{font-size: 0.9rem; line-height: 22px;}
+	.about-us-img{width: 510px; height: 350px; margin: 15px 0 0 0;}
+	.about-us{font-size: 1.35rem; margin: 55px 0;}
+
+	.centered-services{top: 34%;}
+
+	.Our-Work-img{width: 240px; height: 135px; margin: 5px 15px;}
+	.Our-Work-p{font-size: 12px; margin: 0 0 0 25px;}
+	
+}
+
+@media (min-width: 576px) and (max-width: 666px) {
+
+	.display-1{font-size: 2.25rem;}
+	.display-2, .display-3{font-size: 1.5rem;}
+	.display-4{font-size: 1.25rem;}
+	.display-5{font-size: 1rem;}
+
+	h4{font-size: 14px;}
+
+	.slide-paragraph1, .slide-paragraph2, .slide-paragraph3{font-size: 12px; margin-bottom: 0px;}	
+	.mbr-text{width: 460px;}
+
+	.info-heading{font-size: 24px; width: 320px; margin: 20px 0 0 10px;}
+	.info-paragraph{
+		font-size: 13px;
+		width: 320px;
+		margin: 10px 0 15px 10px;
+		line-height: 21px;
+		letter-spacing: 0.5px;}
+	.info-img{width: 190px; height: 190px; margin-left: 10px;}
+
+	.projects-container{width: 235px; height: 180px; margin: 15px 12px 15px 20px;}
+	.projects-img{width: 235px; height: 155px;}
+	.row h6 {margin-left: 15px; font-size: 12px;}
+
+	.site-heading{font-size: 35px;}
+	.why-choose-us-heading{width: 490px; font-size: 25px; margin: 30px 0 0 25px;}
+	.why-choose-us-paragraph1{width: 490px; font-size: 15px; margin: 25px 0 0 25px;}
+	.why-choose-us-paragraph2{width: 490px; font-size: 15px; margin: 15px 0 40px 25px;}
+	.why-choose-us-img{display: none;}
+
+	.card{margin: 0 15px;}
+
+	.lets-chat{height: 250px;}
+	.chat{margin: 0px 0 0 15px;}
+	.chat h3{margin-top: 30px;}
+	.chat-heading {font-size: 40px;}
+	
+	.footer-logo{width: 187px; height: 30px; margin: 15px 0 5px -100px;}
+	.social-icons {margin: 20px 0 10px 0;}
+	.footer-menu1{font-size: 16px; padding: 12px 0 12px 29px;}
+	.footer-menu2{font-size: 16px; padding: 12px 0 12px 7px;}
+	.footer-contact{margin-left: -10px;}
+	ul{margin-left: 29px;}
+	.page-footer{padding: 35px;}
+	.list-unstyled li{margin-bottom: 3px;}
+	.footer-contact{margin-bottom: 10px;}
+	.footer-copyright {margin: 10px 0 30px 35px;}
+
+	.my-form {color: #305896; margin: 20px 10px 0 10px;}
+	.contact-form-submit-btn{font-size: 14px; padding: 10px 25px;}
+	.centered{top: 30%;}
+	.centered h3{font-size: .80rem;}
+	.india-gate{display: none;}	
+
+	.centered-about-us{top: 27%;}
+	.counting{margin: 40px 65px;}
+	.about-us-p{font-size: 0.9rem; line-height: 22px;}
+	.about-us-img{width: 490px; height: 320px; margin: 15px 0 0 0;}
+	.about-us{font-size: 1.15rem; margin: 50px 30px;}
+	.about-us-heading{margin: 20px;}
+
+	.centered-services{top: 30%;}
+
+	.Our-Work-img{width: 435px; height: 240px; margin: 5px 0px 5px 50px;}
+	.Our-Work-p{margin: 0 0 0 60px;}
+	
+}
+
+@media (min-width: 425px) and (max-width: 575px) {
+
+	.display-1{font-size: 2.15rem;}
+	.display-2, .display-3{font-size: 1.5rem;}
+	.display-4, .display-5{font-size: 1.15rem;}
+	h2{margin-top: 30px;}
+	h4{font-size: 13px;}
+	.logo{width: 170px; height: 27px;}
+
+	.slide-heading{font-size: 22px; line-height: 25px;}
+	.slide-paragraph1, .slide-paragraph2, .slide-paragraph3{font-size: 12px; margin-bottom: -10px;}
+	.cid-rVaUekSJOI .card-wrapper .card-box {padding: 1.75rem 0rem; margin-left: 20px;}
+
+	.info-heading{font-size: 24px; width: 320px; margin: 20px 0 0 55px; text-align: center;}
+	.info-paragraph{
+		font-size: 13px;
+		width: 320px;
+		margin: 10px 0 15px 55px;
+		line-height: 21px;
+		letter-spacing: 0.5px;
+		text-align: center;}
+	.info-img{display: none;}
+
+	.projects-container{width: 320px; height: 245px; margin: 15px 12px 15px 55px;}
+	.projects-img{width: 320px; height: 215px;}
+	.row h6 {margin-left: 0px; font-size: 15px; text-align: center; }
+
+	.site-heading{font-size: 35px; margin-top: 25px;}
+	.bg-color-light-grey .title h4{margin-top: 10px; font-size: 16px;}
+	.why-choose-us-heading{width: 370px; font-size: 24px; margin: 20px 0 0 25px; text-align: center; line-height: 30px;}
+	.why-choose-us-paragraph1{width: 370px; font-size: 15px; margin: 20px 0 0 25px; text-align: center;}
+	.why-choose-us-paragraph2{width: 370px; font-size: 15px; margin: 15px 0 40px 25px; text-align: center;}
+	.why-choose-us-img{display: none;}
+
+	.card{margin: 0 15px;}
+	.lets-chat{height: 250px; text-align: center;}
+	.chat{margin: 15px 0 0 0;}
+	.chat h3{margin-top: 20px;}
+	
+	.footer-logo{width: 235px; height: 39px; margin: 15px 10px 5px 10px;}
+	.social-icons{font-size: 22px; margin: 30px 0 10px 21px;}
+	.footer-menu1{padding: 12px 0 12px 15px;}
+	.footer-menu2{padding: 12px 0 12px 7px;}
+	.footer-contact{margin: 0 0 15px 0;}
+	ul{margin-left: 15px;}
+	.page-footer{padding: 42px;}
+	.list-unstyled li{margin-bottom: 3px;}
+	.footer-copyright {margin: 5px 11px 20px 11px;}
+
+	.my-form {color: #305896; margin: 20px 10px 0 10px;}
+	.contact-form-submit-btn{font-size: 13px; padding: 8px 20px;}
+	.centered{top: 28%;}
+	.centered h1{margin-bottom: 0.25rem;}
+	.centered h3{font-size: .80rem;}
+	.india-gate{display: none;}	
+
+	.centered-about-us{top: 25%;}
+	.counting{margin: 30px 30px;}
+	.about-us-p{font-size: 0.9rem; line-height: 22px;}
+	.about-us-img{width: 395px; height: 260px; margin: 15px 0 0 0;}
+	.about-us{font-size: 1.10rem; margin: 40px;}
+	.about-us-heading{margin: 5px 25px;}
+
+	.centered-services{top: 25%;}
+
+	.Our-Work-img{width: 320px; height: 180px; margin: 5px 0px 5px 52px;}
+	.Our-Work-p{font-size: 13px; margin: 0 0 0 65px;}
+	
+}
+
+@media (min-width: 375px) and (max-width: 424px){
+
+	.display-1{font-size: 2rem;}
+	.display-2, .display-3{font-size: 1.25rem;}
+	.display-4, .display-5{font-size: 0.90rem;}
+	h2{margin-top: 25px;}
+	.logo{width: 170px; height: 27px;}
+
+	.slide-heading{line-height: 22px;}
+	.slide-paragraph1, .slide-paragraph2, .slide-paragraph3{font-size: 10px; margin-bottom: -10px;}
+	.cid-rVaUekSJOI .card-wrapper .card-box {padding: 1.75rem 0rem; margin-left: 20px;}
+
+	.info-heading{text-align: center; width: 320px; margin: 20px 0 0 20px;}
+	.info-paragraph{
+		text-align: center;
+		font-size: 12px;
+		width: 320px;
+		margin: 10px 0 10px 20px;
+		line-height: 21px;
+		letter-spacing: 0.5px;}
+
+	.info-img{display: none;}
+
+	.projects-container{width: 300px; height: 220px; margin: 15px 12px 15px 40px;}
+	.projects-img{width: 300px; height: 190px;}
+	.row h6 {margin-left: 0; font-size: 14px; text-align: center;}
+
+	.site-heading{font-size: 35px; margin-top: 20px;}
+	.bg-color-light-grey .title h4{margin-top: 10px; font-size: 14px;}
+	.why-choose-us-heading{width: 320px; font-size: 20px; margin: 20px 0 0 25px; text-align: center; line-height: 25px;}
+	.why-choose-us-paragraph1{width: 320px; font-size: 15px; margin: 20px 0 0 25px; text-align: center;}
+	.why-choose-us-paragraph2{width: 320px; font-size: 15px; margin: 15px 0 40px 25px; text-align: center;}
+	.why-choose-us-img{display: none;}
+
+	.card{margin: 0 15px;}
+	.lets-chat{height: 250px;}
+	.chat{margin: 20px 0 0 0; text-align: center;}
+	
+	.footer-logo{width: 190px; height: 30px; margin: 15px 10px 5px 15px;}
+	.social-icons{font-size: 20px; margin: 30px 0 10px 15px;}
+	.footer-menu1{font-size: 17px; padding: 12px 0 12px 10px;}
+	.footer-menu2{font-size: 17px; padding: 12px 0 12px 7px;}
+	.footer-contact{margin: 0 0 15px 0;}
+	ul{margin-left: 10px;}
+	.page-footer{padding: 40px;}
+	.footer-copyright {margin: 5px 11px 20px 11px;}
+
+	.my-form {color: #305896; margin: 20px 10px 0 10px;}
+	.contact-form-submit-btn{font-size: 13px; padding: 8px 20px;}
+	.centered{top: 26%;}
+	.centered h1{margin-bottom: 0.25rem;}
+	.centered h3{font-size: .75rem;}
+	.india-gate{display: none;}
+
+	.centered-about-us{top: 20%;}
+	.counting{margin: 30px 30px;}
+	.about-us-p{font-size: 0.9rem; line-height: 22px;}
+	.about-us-img{width: 340px; height: 220px; margin: 15px 0 0 0;}
+	.about-us{font-size: 0.9rem; margin: 40px;}
+	.about-us-heading{margin: 5px 25px;}
+
+	.centered-services{top: 25%;}
+
+	.Our-Work-img{width: 285px; height: 155px; margin: 5px 0px 5px 45px;}
+	.Our-Work-p{font-size: 13px; margin: 0 0 0 55px;}
+
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+
+	.display-1{font-size: 2rem;}
+	.display-2, .display-3{font-size: 1.15rem;}
+	.display-4, .display-5{font-size: 1rem;}
+
+	h2{margin-top: 25px;}
+	h4{font-size: 14px; margin-top: 0;}
+	.logo{width: 170px; height: 27px;}
+
+	.slide-heading{line-height: 20px;}
+	.slide-paragraph1, .slide-paragraph2, .slide-paragraph3{font-size: 8px; margin-bottom: -20px;}
+	
+	.service{padding: 5px;}
+	.cen{padding: 20px 20px 10px 20px;}
+
+	.info-heading{font-size: 20px; width: 260px; margin: 20px 0 0 25px;}
+	.info-paragraph{font-size: 12px; width: 260px; margin: 10px 0 15px 25px; line-height: 19px;}
+	.info-img{display: none;}
+
+	.projects-container{width: 240px; height: 180px; margin: 15px 12px 15px 40px;}
+	.projects-img{width: 240px; height: 155px;}
+	.row h6 {margin-left: 0; font-size: 12px; text-align: center;}
+
+	.site-heading{margin-top: 25px;}
+	.why-choose-us-heading{text-align: center; width: 260px; font-size: 20px; margin: 20px 0 0 30px; line-height: 25px;}
+	.why-choose-us-paragraph1{text-align: center; width: 260px; font-size: 15px; margin: 25px 0 0 30px;}
+	.why-choose-us-paragraph2{text-align: center; width: 260px; font-size: 15px; margin: 15px 0 40px 30px;}
+	.why-choose-us-img{display: none;}
+
+	.card{margin: 0 5px;}
+	.lets-chat{height: 250px;}
+	.chat{margin: 0; text-align: center;}
+	
+	.footer-logo{width: 187px; height: 30px; margin: 15px 0 5px 0;}
+	.social-icons {margin: 25px 0 10px 0;}
+	.footer-menu1{font-size: 16px; padding: 12px 0 12px 10px;}
+	.footer-menu2{font-size: 16px; padding: 12px 0 12px 7px;}
+	.footer-contact{margin: 0 0 10px 0;}
+	ul{margin-left: 10px;}
+	.page-footer{padding: 35px;}
+	.list-unstyled li{margin-bottom: 3px;}
+	.footer-copyright {margin: 10px 11px 30px 11px;}
+
+	.my-form {color: #305896; margin: 20px 10px 0 10px;}
+	.contact-form-submit-btn{font-size: 13px; padding: 8px 20px;}
+	.centered{top: 25%;}
+	.centered h1{margin-bottom: 0.25rem;}
+	.centered h3{font-size: .75rem;}
+	.india-gate{display: none;}
+
+	.centered-about-us{top: 22%;}
+	.counting{margin: 40px 65px;}
+	.about-us-p{font-size: 0.9rem; line-height: 22px;}
+	.about-us-img{width: 280px; height: 180px; margin: 15px 0 0 0;}
+	.about-us{font-size: 0.8rem; margin: 40px;}
+	.about-us-heading{margin: 5px 25px;}
+
+	.centered-services{top: 25%;}
+
+	.Our-Work-img{width: 250px; height: 140px; margin: 5px 0px 5px 35px;}
+	.Our-Work-p{font-size: 13px; margin: 0 0 0 45px;}
+
+}
