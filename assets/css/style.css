@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 *{
     transition: 0s ease;
     -webkit-transition: 0s ease;
@@ -10,9 +11,9 @@
     margin: 0;
     padding: 0;}
 
-body{font-family: Arial, Loves, Gotham;}
+body{font-family: 'Comfortaa', sans-serif;}
 
-/*===========================*/
+/*=================================*/
 /* colors define */	
 .black{color: black;}
 .white{color: white;}
@@ -31,17 +32,16 @@ body{font-family: Arial, Loves, Gotham;}
 .align-center{text-align: center;}
 
 .display-1{font-size: 3.5rem;}
-.display-2{font-size: 3rem;}
+.display-2{font-size: 2.9rem;}
 .display-3{font-size: 2.5rem;}
 .display-4{font-size: 2rem;}
 .display-5{font-size: 1.5rem;}
 .display-6{font-size: 1rem;}
 
 a:hover{text-decoration: none;}
-
 h2{color: #27093b; font-size: 42px; font-weight: bold; text-align: center; margin-top: 40px;}
-h4{color: #636363; font-size: 17px; font-weight: normal; text-align: center; margin-top: -8px;}
-p{letter-spacing: 0.7px;}
+h4{color: #636363; font-size: 17px; font-weight: normal; text-align: center;}
+/*p{letter-spacing: 0.7px;}*/
 .hr{ 
 	opacity: 0.3;
 	height: 1px;
@@ -49,22 +49,21 @@ p{letter-spacing: 0.7px;}
 	margin-left: 3.7%;
   	background-color: white;
   	border: none;}
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Start Navbar Section */
 .logo{margin-top: -7px;}
 .menu{font-size: 15px; font-weight: bold; margin-left: 250px;}
 .menu a{margin-top: 7px; margin-left: 36px;}
 .navbar-light .navbar-nav{margin-left: auto; font-weight: bold;}
 .navbar-light .navbar-nav .nav-item {padding: 0 8px;}
-.navbar-light .navbar-nav .nav-link:hover{color: black;}
 /* End Navbar Section */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Start Header Section */
 .slide-paragraph1, .slide-paragraph2, .slide-paragraph3{
 	font-size: 18px;
@@ -72,10 +71,10 @@ p{letter-spacing: 0.7px;}
 	margin-bottom: 70px;
 	letter-spacing: 1.5px;}
 /* End Header Section */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Services Section */
 .cen{max-width: 1200px; margin: auto; overflow: hidden; padding: 20px 20px 40px 20px;}
 .service{
@@ -97,25 +96,26 @@ p{letter-spacing: 0.7px;}
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 .service .services-icons{font-size: 40px; color: #64BC46; margin-bottom: 10px;}
-.service a h3{color: black; font-size: 19px; text-transform: uppercase; font-weight: 500; margin: 6px 0 6px 0;}
-.service a p{color: gray; font-size: 15px; font-weight: 500;}
+.service h3{color: black; font-size: 18px; text-transform: uppercase; font-weight: 500; margin: 6px 0 6px 0;}
+.service p{color: gray; font-size: 15px; font-weight: 500;}
+.service a{font-size: 13px;}
 
 @media screen and (max-width: 800px) {.service{width: 50%;} }
 @media screen and (max-width: 500px) {.service{width: 100%;} }
 /* End Services Section */	
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Info Section */
 .info-heading{color: #27093b; margin-top: 65px; width: 590px;}
 .info-paragraph{font-size: 17px; margin-top: 20px; line-height: 28px; width: 675px;}
 .info-img{margin-left: auto;}
 /* End Info Section */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Portfolio Section */
 .projects-container {
     width: 350px;
@@ -137,13 +137,13 @@ p{letter-spacing: 0.7px;}
     transition: all 0.8s;}
 
 .projects-img:hover{transform: scale(1.3);}
-.row h6{color: #fff; font-size: 0.9rem; font-weight: bold; margin-left: 15px; padding: 6px 0 0 0;}
+.info-row h6{color: #fff; font-size: 0.9rem; margin-left: 15px; padding: 6px 0 0 0;}
 .info-row{margin-top: 30px;}
 /* End Portfolio Section */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Who We Are Section */
 .site-heading{color: #27093b; text-align: center; margin-top: 35px;}
 .why-choose-us-heading{
@@ -158,10 +158,10 @@ p{letter-spacing: 0.7px;}
 .why-choose-us-paragraph2{width: 540px; font-size: 16px; margin: 15px 0 25px 0;}
 .why-choose-us-img{margin: 20px 0 20px 80px;}
 /* End Who We Are Section */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* testimonials Section */
 .card-body .row .col p{font-size: 13px; line-height: 25px !important; color: #fff;}
 .small{letter-spacing: 0.5px !important}
@@ -198,7 +198,7 @@ p{letter-spacing: 0.7px;}
 .card:hover{box-shadow: -5px 50px 100px rgba(223, 241, 223, 0.5);}
 .card:hover hr{background-color: #fff;}
 .card:hover h4{font-weight: 600;}
-.card:hover p{font-weight: 600;}
+.card:hover p{font-weight: 500;}
 .card:hover small{font-weight: 600;}
 .card:hover .layer{top: 0;}
 .card .content {position: relative; z-index: 2;}
@@ -217,12 +217,12 @@ p{letter-spacing: 0.7px;}
 
 @media (max-width: 479px) { .img-1 {margin-right: 0 !important} }
 /* End testimonials Section */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Start Let's Chat Section */
-.lets-chat{height: 290px;}
+.lets-chat{height: 290px; margin-top: 40px;}
 .chat{color: white; margin-left: 55px;}
 .chat h3{font-size: 25px; margin-top: 40px;}
 .chat-heading{font-size: 47px; font-weight: bold;}
@@ -234,10 +234,10 @@ p{letter-spacing: 0.7px;}
 	border: 2px solid white;
 	background: transparent;}
 /* End Let's Chat Section */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Start Contact Us Section */
 .contact-form-submit-btn{
 	font-size: 17px;
@@ -247,10 +247,10 @@ p{letter-spacing: 0.7px;}
 	border: none;
 	border-radius: 25px;}
 /* End Contact Us Section */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Start Footer Section */
 .page-footer{padding: 60px;}
 .bg-color-footer{
@@ -295,10 +295,10 @@ ul{margin-left: 45px;}
 .footer-copyright{margin: 15px 0 40px 60px; font-size: 13px;}
 .footer-copyright a{color: white;}
 /* End Footer Section */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Start Contact Us Page Css */
 .title-bg{width: 100%;}
 .centered{position: absolute; top: 32%; left: 50%; transform: translate(-50%, -50%);}
@@ -314,33 +314,34 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 
 .india-gate{border-radius: 15px; width: 550px; height: 375px; margin: 0 10px 50px 0;}
 /* End Contact Us Page Css */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Start About Us Page Css */
 .centered-about-us{position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);}
 .about-us-p{font-size: 1rem;}
 .about-us-img{border-radius: 15px; width: 540px; height: 375px; margin: 15px 0 0 10px;}
 .about-us{margin: 65px 15px;}
-.counting{margin: 75px 0; text-align: center;}
+.counting{margin: 50px 0; text-align: center;}
 .counting .icon{color: white; font-size: 50px; margin-bottom: 0;}
-.counting h3{color: #64BC46; font-size: 34px; font-weight: bold;}
+.counting h3{color: #64BC46; font-size: 30px; font-weight: bold;}
 .counting .name{color: white; font-size: 18px; margin-bottom: 0;}
 .about-us-heading{margin: 10px;}
 /* End About Us Page Css */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
 /* Start Services Page Css */
 .centered-services{position: absolute; top: 32%; left: 50%; transform: translate(-50%, -50%);}
 .services-section{margin: 30px 0 0 0;}
 /* End Services Page Css */
-/*===========================*/
+/*=================================*/
 
 
-/*===========================*/
+/*=================================*/
+/* End Our Work Page Css */
 .Our-Work-img{
 	width: 325px;
 	height: 185px;
@@ -354,7 +355,71 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 
 .Our-Work-img:hover{transform: scale(1.2);}
 .Our-Work-p{margin: 0 0 0 35px; color: #431860; font-weight: bold; padding: 15px 0 20px 0;}
-/*===========================*/
+/* End Our Work Page Css */
+/*=================================*/
+
+
+/*=================================*/
+/* Start Apps Development Page Css */
+.apps-development{margin: 30px 0 0 0;}
+.mobile-apps-icons{color: #64BC46; font-size: 50px; margin: 0 0 15px 0;}
+/* End Apps Development Page Css */
+/*=================================*/
+
+
+/*=================================*/
+/* Start Web Development Page Css */
+.web-development{margin: 30px 0 20px 0;}
+.web-development-section1, .web-development-section2, .web-development-section3{margin: 35px 0 0 0;}
+.web-development-section4, .web-development-section5, .web-development-section6{margin: 10px 0 20px 0;}
+.web-development ul li::before{
+	content: '\f24d';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    position: absolute;
+    margin-left: -40px;
+    color: #431860;;}
+.web-development-img{border-radius: 15px; width: 450px; height: 300px;}
+/* End Web Development Page Css */
+/*=================================*/
+
+
+/*=================================*/
+/* Start UI-UX-Designing Page Css */
+.UI-UX-Designing{margin: 30px 0 20px 0;}
+.UI-UX-Designing ul li::before{
+	content: '\f24d';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    position: absolute;
+    margin-left: -40px;
+    color: #431860;;}
+.UI-UX-Designing-img{border-radius: 15px; width: 540px; height: 375px;}
+/* End UI-UX-Designing Page Css */
+/*=================================*/
+
+
+/*=================================*/
+/* Start Digital Marketing Page Css */
+.digital-marketing{margin: 40px 0 20px 0;}
+.digital-marketing-img{border-radius: 15px; width: 540px; height: 375px;}
+/* End Digital Marketing Page Css */
+/*=================================*/
+
+
+/*=================================*/
+/* Start Data Analytics Page Css */
+.data-analytics{margin: 40px 0 20px 0;}
+.data-analytics-img{border-radius: 15px; width: 540px; height: 375px;}
+/* End Data Analytics Page Css */
+/*=================================*/
+
+
+/*=================================*/
+/* Start Magrnto Development Page Css */
+.magrnto-development{margin: 40px 0 20px 0;}
+/* End Magrnto Development Page Css */
+/*=================================*/
 
 
 /***** MEDIA QUERIES *****/
@@ -362,7 +427,7 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	.display-1{font-size: 3rem;}
-	.display-2{font-size: 2.25rem;}
+	.display-2{font-size: 2.05rem;}
 	.display-3{font-size: 2rem;}
 	.display-4{font-size: 1.5rem;}
 	.display-5{font-size: 1rem;}
@@ -373,7 +438,7 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 
 	.projects-container{width: 270px; height: 210px; margin: 0 0 30px 38px;}
 	.projects-img{width: 270px; height: 180px;}
-	.row h6 {margin-left: 15px;}
+	.info-row h6 {font-size: 0.8rem; padding: 8px 0 0 0;}
 
 	.why-choose-us-heading{width: 420px; font-size: 26px; margin: 30px 0 0 50px;}
 	.why-choose-us-paragraph1{width: 420px; font-size: 15px; margin: 35px 0 0 50px;}
@@ -403,7 +468,7 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 @media (min-width: 900px) and (max-width: 991px) {
 
 	.display-1{font-size: 3rem;}
-	.display-2, .display-3{font-size: 2rem;}
+	.display-2, .display-3{font-size: 1.9rem;}
 	.display-4{font-size: 1.5rem;}
 	.display-5{font-size: 1rem;}
 
@@ -418,12 +483,12 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	.projects-img{width: 320px; height: 210px;}
 	.row h6 {margin-left: 15px;}
 
-	.why-choose-us-heading{width: 380px; font-size: 26px; margin: 30px 0 0 -35px;}
+	.why-choose-us-heading{width: 380px; font-size: 25px; margin: 30px 0 0 -35px;}
 	.why-choose-us-paragraph1{width: 380px; font-size: 15px; margin: 25px 0 0 -35px;}
 	.why-choose-us-paragraph2{width: 380px; font-size: 15px; margin: 15px 0 30px -35px;}
-	.why-choose-us-img{margin: 40px 0 0 15px; width: 360px; height: 300px;}
+	.why-choose-us-img{margin: 100px 0 0 15px; width: 360px; height: 300px;}
 
-	.chat{margin: 5px 0 0 0;}
+	.chat{margin: 10px 0 0 0;}
 	.page-footer{padding: 45px;}
 	.list-unstyled li{margin-bottom: 3px;}
 	.footer-contact{margin-bottom: 10px;}
@@ -472,14 +537,15 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	
 	.footer-logo{width: 187px; height: 30px; margin: 15px 0 5px 20px;}
 	.social-icons {margin: 20px 0 10px 0;}
-	.footer-menu1{font-size: 16px; padding: 12px 0 12px 29px;}
-	.footer-menu2{font-size: 16px; padding: 12px 0 12px 7px;}
-	.footer-contact{margin-left: -10px;}
+	.footer-menu1{font-size: 15px; padding: 12px 0 12px 29px;}
+	.footer-menu2{font-size: 15px; padding: 12px 0 12px 0px;}
+	.footer-contact{font-size: 11px; margin: 0 0 10px -15px;}
 	ul{margin-left: 29px;}
 	.page-footer{padding: 35px;}
 	.list-unstyled li{margin-bottom: 3px;}
-	.footer-contact{margin-bottom: 10px;}
-	.footer-copyright {margin: 10px 0 30px 40px;}
+	.list-unstyled li a{font-size: 11px;}
+	.subs-btn{font-size: 10px; padding: 5px 15px; margin: 15px 0 0 18px;}
+	.footer-copyright{font-size: 11px; margin: 5px 0 25px 45px;}
 
 	.contact-form-submit-btn{font-size: 14px; padding: 10px 26px;}
 	.centered{top: 37%;}
@@ -706,7 +772,7 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	h2{margin-top: 25px;}
 	.logo{width: 170px; height: 27px;}
 
-	.slide-heading{line-height: 22px;}
+	.slide-heading{line-height: 23px;}
 	.slide-paragraph1, .slide-paragraph2, .slide-paragraph3{font-size: 10px; margin-bottom: -10px;}
 	.cid-rVaUekSJOI .card-wrapper .card-box {padding: 1.75rem 0rem; margin-left: 20px;}
 
@@ -735,6 +801,7 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	.card{margin: 0 15px;}
 	.lets-chat{height: 250px;}
 	.chat{margin: 20px 0 0 0; text-align: center;}
+	.chat h3{margin-top: 20px;}
 	
 	.footer-logo{width: 190px; height: 30px; margin: 15px 10px 5px 15px;}
 	.social-icons{font-size: 20px; margin: 30px 0 10px 15px;}
@@ -776,7 +843,7 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	h4{font-size: 14px; margin-top: 0;}
 	.logo{width: 170px; height: 27px;}
 
-	.slide-heading{line-height: 20px;}
+	.slide-heading{line-height: 23px;}
 	.slide-paragraph1, .slide-paragraph2, .slide-paragraph3{font-size: 8px; margin-bottom: -20px;}
 	
 	.service{padding: 5px;}
@@ -808,7 +875,7 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	ul{margin-left: 10px;}
 	.page-footer{padding: 35px;}
 	.list-unstyled li{margin-bottom: 3px;}
-	.footer-copyright {margin: 10px 11px 30px 11px;}
+	.footer-copyright {margin: 5px 11px 20px 11px;}
 
 	.my-form {color: #305896; margin: 20px 10px 0 10px;}
 	.contact-form-submit-btn{font-size: 13px; padding: 8px 20px;}
