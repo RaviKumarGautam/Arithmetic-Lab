@@ -14,7 +14,7 @@
     <link href="./assets/fontawesome-free-5.13.0-web/css/solid.min.css" type="text/css" rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
-    <title>ARITHMETIC LAB | Software, Mobile App Development</title>
+    <title>ARITHMETIC LAB</title>
   </head>
   <body>
 
@@ -161,10 +161,10 @@
 
                 <div class="service">
                     <i class="fas fa-anchor services-icons"></i>
-                    <h3>MAGENTO DEVELOPMENT</h3>
+                    <h3>STAFFING SOLUTION</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <a href="Magento-Development.html" target="_blank" style="font-size: 13px;">Read More
+                    <a href="Staffng-Solution.html" target="_blank" style="font-size: 13px;">Read More
                         <i class="fas fa-arrow-right ml-1" style="font-size: 10px;"></i>
                     </a>
                 </div>
@@ -224,9 +224,9 @@
                         <h6>WEB DEVELOPMENT</h6>
                     </div>
                     <div class="projects-container">
-                        <a href="Magento-Development.html" target="_blank">
+                        <a href="Staffng-Solution.html" target="_blank">
                         <img alt="project5-img" class="img-fluid projects-img" src="./assets/images/project-img/Project5.jpg"></a>
-                        <h6>MAGENTO DEVELOPMENT</h6>
+                        <h6>STAFFING SOLUTION</h6>
                     </div>
                     <div class="projects-container">
                         <a href="Digital-Marketing.html" target="_blank">
@@ -274,6 +274,8 @@
     <!-- End Why Choose Us Section -->
 
     <!-- Start Testimonials Section -->
+
+    <!--
         <div class="container mb-5 justify-content-center">
             <div class="title">
                 <h2 class="display-1">Testimonials</h2>
@@ -421,10 +423,13 @@
 
             </div>
         </div>
+
+    -->
+    
     <!-- End Testimonials Section -->
 
     <!-- Start Let's Chat Section-->
-        <section class="bg-color-blue lets-chat">
+        <section class="bg-color-footer lets-chat">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 chat">
@@ -448,28 +453,21 @@
                 
                 <div class="col-md-6 mt-4">
                     <div id="google-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d111686.29859592649!2d77.71869879201174!3d28.98153784211139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1587277142824!5m2!1sen!2sin" width="100%" height="410" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d111686.29859592649!2d77.71869879201174!3d28.98153784211139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1587277142824!5m2!1sen!2sin" 
+                            width="100%" height="410" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
 
                 <div class="col-md-6 mt-4">
-                    <form class="my-form">
-                        <div class="form-group">
-                            <input type="Text" class="form-control" id="form-name" placeholder="Your Name" required="required">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="form-email" placeholder="Email Address" required="required">
-                        </div>
-                        <div class="form-group">
-                            <input type="number" class="form-control" id="form-number" placeholder="Phone Number" required="required">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="form-subject" placeholder="Subject">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="form-message" placeholder="Your Message Here..." rows="5" cols="50" required="required"></textarea>
-                        </div>
-                        <button class="btn-bg-color contact-form-submit-btn" type="submit">Send Message</button>             
+                    <form class="my-form" id="contact-form"method="POST" action="contact-form.php">
+                        <input type="Text" class="form-control" name="name" id="form-name" placeholder="Your Name" required="required">
+                        <input type="email" class="form-control" name="email" id="form-email" placeholder="Email Address" required="required">
+                        <input type="number" class="form-control" name="phone-number" id="form-number" placeholder="Phone Number" required="required">
+                        <input type="text" class="form-control" name="subject" id="form-subject" placeholder="Subject">
+                        <textarea class="form-control" name="message" id="form-message" placeholder="Your Message Here..." 
+                            rows="5" cols="50" required="required"></textarea>
+                        <button class="btn-bg-color contact-form-submit-btn" type="submit" name="submit">
+                            Send Message</button>             
                     </form>
                 </div>
 

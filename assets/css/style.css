@@ -239,6 +239,7 @@ h4{color: #636363; font-size: 17px; font-weight: normal; text-align: center;}
 
 /*=================================*/
 /* Start Contact Us Section */
+.form-control{margin-bottom: 1rem;}
 .contact-form-submit-btn{
 	font-size: 17px;
 	font-weight: bold;
@@ -368,6 +369,14 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 
 
 /*=================================*/
+/* Start Data Analytics Page Css */
+.data-analytics{margin: 40px 0 20px 0;}
+.data-analytics-img{border-radius: 15px; width: 500px; height: 330px; margin-top: 35px;}
+/* End Data Analytics Page Css */
+/*=================================*/
+
+
+/*=================================*/
 /* Start Web Development Page Css */
 .web-development{margin: 30px 0 20px 0;}
 .web-development-section1, .web-development-section2, .web-development-section3{margin: 35px 0 0 0;}
@@ -394,7 +403,7 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
     position: absolute;
     margin-left: -40px;
     color: #431860;;}
-.UI-UX-Designing-img{border-radius: 15px; width: 540px; height: 375px;}
+.UI-UX-Designing-img{border-radius: 15px; width: 450px; height: 300px; margin-top: 23px;}
 /* End UI-UX-Designing Page Css */
 /*=================================*/
 
@@ -403,22 +412,16 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 /* Start Digital Marketing Page Css */
 .digital-marketing{margin: 40px 0 20px 0;}
 .digital-marketing-img{border-radius: 15px; width: 540px; height: 375px;}
+.few-words-img{border-radius: 15px; width: 540px; height: 375px;}
 /* End Digital Marketing Page Css */
 /*=================================*/
 
 
 /*=================================*/
-/* Start Data Analytics Page Css */
-.data-analytics{margin: 40px 0 20px 0;}
-.data-analytics-img{border-radius: 15px; width: 540px; height: 375px;}
-/* End Data Analytics Page Css */
-/*=================================*/
-
-
-/*=================================*/
-/* Start Magrnto Development Page Css */
-.magrnto-development{margin: 40px 0 20px 0;}
-/* End Magrnto Development Page Css */
+/* Start Staffing Solution Page Css */
+.staffing-solution{margin: 40px 0 20px 0;}
+.staffing-solution-img{border-radius: 15px; width: 540px; height: 375px; margin-top: 68px;}
+/* End Staffing Solution Page Css */
 /*=================================*/
 
 
@@ -450,18 +453,23 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	.list-unstyled li{margin-bottom: 5px;}
 	.footer-contact{margin-bottom: 15px;}
 
-	.centered{top: 42%;}
+	.centered{top: 41%;}
 	.centered h3{font-size: 1.5rem;}
 	.india-gate{width: 450px; height: 330px;}
 
-	.centered-about-us{top: 38%;}
+	.centered-about-us{top: 37%;}
 	.about-us-img{width: 450px; height: 330px;}
 	.about-us{margin: 65px;}
 
-	.centered-services{top: 38%;}
-
+	.centered-services{top: 42%;}
 	.Our-Work-img{width: 270px; height: 150px; margin: 5px 15px 5px 32px;}
 	.Our-Work-p{margin: 0 0 0 40px;}
+	
+	.data-analytics-img{width: 450px; height: 350px; margin-top: 50px;}
+	.UI-UX-Designing-img{width: 450px; height: 330px;}
+	.web-development-img{width: 450px; height: 300px;}
+	.digital-marketing-img{width: 450px; height: 340px; margin-top: 35px;}
+	.few-words-img{width: 400px; height: 270px;}
 		
 }
 
@@ -501,9 +509,16 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	.about-us-p{font-size: 0.9rem; line-height: 22px;}
 	.about-us-img{width: 400px; height: 290px;}
 	.about-us{font-size: 1.50rem; margin: 60px 0;}
-
+	
+	.centered-services{top: 42%;}
 	.Our-Work-img{width: 325px; height: 185px; margin: 5px 15px;}
 	.Our-Work-p{margin: 0 0 0 25px;}
+
+	.data-analytics-img{width: 330px; height: 265px; margin-top: 60px;}
+	.UI-UX-Designing-img{width: 330px; height: 230px;}
+	.web-development-img{width: 330px; height: 240px;}
+	.digital-marketing-img{width: 330px; height: 240px;}
+	.few-words-img{width: 330px; height: 240px; margin-top: 45px;}
 
 }
 
@@ -561,9 +576,14 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	.counting .name{font-size: 16px;}
 
 	.centered-services{top: 38%;}
-
 	.Our-Work-img{width: 310px; height: 173px; margin: 5px 15px 5px 30px;}
 	.Our-Work-p{margin: 0 0 0 40px;}
+
+	.data-analytics-img{width: 330px; height: 265px; margin-top: 60px;}
+	.UI-UX-Designing-img{width: 330px; height: 230px;}
+	.web-development-img{width: 330px; height: 240px;}
+	.digital-marketing-img{width: 330px; height: 240px;}
+	.few-words-img{width: 330px; height: 240px; margin-top: 45px;}
 
 }
 
@@ -619,9 +639,17 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	.about-us{font-size: 1.35rem; margin: 55px 0;}
 
 	.centered-services{top: 34%;}
-
 	.Our-Work-img{width: 240px; height: 135px; margin: 5px 15px;}
 	.Our-Work-p{font-size: 12px; margin: 0 0 0 25px;}
+
+	.data-analytics-img{width: 510px; height: 350px; margin-top: 10px; margin-bottom: 25px;}
+	.UI-UX-Designing-img{width: 510px; height: 350px; margin-bottom: 25px;}
+	.UI-UX-Designing .list-unstyled{margin-left: 40px;}
+	.web-development-img{width: 510px; height: 350px;}
+	.web-development .list-unstyled{margin-left: 40px;}
+	.apps-development h5{font-size: 0.9rem;}
+	.digital-marketing-img{width: 510px; height: 350px; margin-bottom: 25px;}
+	.few-words-img{width: 510px; height: 350px; margin-top: 0px; margin-bottom: 25px;}
 	
 }
 
@@ -697,8 +725,8 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 @media (min-width: 425px) and (max-width: 575px) {
 
 	.display-1{font-size: 2.15rem;}
-	.display-2, .display-3{font-size: 1.5rem;}
-	.display-4, .display-5{font-size: 1.15rem;}
+	.display-2, .display-3{font-size: 1.3rem;}
+	.display-4, .display-5{font-size: 1rem;}
 	h2{margin-top: 30px;}
 	h4{font-size: 13px;}
 	.logo{width: 170px; height: 27px;}
@@ -757,18 +785,26 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	.about-us{font-size: 1.10rem; margin: 40px;}
 	.about-us-heading{margin: 5px 25px;}
 
-	.centered-services{top: 25%;}
-
+	.centered-services{top: 27%;}
 	.Our-Work-img{width: 320px; height: 180px; margin: 5px 0px 5px 52px;}
 	.Our-Work-p{font-size: 13px; margin: 0 0 0 65px;}
+
+	.data-analytics-img{width: 395px; height: 300px; margin-top: 10px; margin-bottom: 25px;}
+	.UI-UX-Designing-img{width: 395px; height: 300px; margin-bottom: 25px;}
+	.UI-UX-Designing .list-unstyled{margin-left: 40px;}
+	.web-development-img{width: 395px; height: 300px;}
+	.web-development .list-unstyled{margin-left: 40px;}
+	.digital-marketing-img{width: 395px; height: 300px; margin-bottom: 25px;}
+	.few-words-img{width: 395px; height: 300px; margin-top: 0px; margin-bottom: 25px;}
 	
 }
 
 @media (min-width: 375px) and (max-width: 424px){
 
 	.display-1{font-size: 2rem;}
-	.display-2, .display-3{font-size: 1.25rem;}
+	.display-2, .display-3{font-size: 1.2rem;}
 	.display-4, .display-5{font-size: 0.90rem;}
+	h1{font-size: 2.2rem;}
 	h2{margin-top: 25px;}
 	.logo{width: 170px; height: 27px;}
 
@@ -826,19 +862,26 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	.about-us{font-size: 0.9rem; margin: 40px;}
 	.about-us-heading{margin: 5px 25px;}
 
-	.centered-services{top: 25%;}
-
+	.centered-services{top: 26%;}
 	.Our-Work-img{width: 285px; height: 155px; margin: 5px 0px 5px 45px;}
 	.Our-Work-p{font-size: 13px; margin: 0 0 0 55px;}
+
+	.data-analytics-img{width: 345px; height: 250px; margin-top: 10px; margin-bottom: 25px;}
+	.UI-UX-Designing-img{width: 345px; height: 250px; margin-bottom: 25px;}
+	.UI-UX-Designing .list-unstyled{margin-left: 40px;}
+	.web-development-img{width: 345px; height: 250px;}
+	.web-development .list-unstyled{margin-left: 40px;}
+	.digital-marketing-img{width: 345px; height: 250px; margin-bottom: 25px;}
+	.few-words-img{width: 345px; height: 250px; margin-top: 0px; margin-bottom: 25px;}
 
 }
 
 @media (min-width: 320px) and (max-width: 374px){
 
 	.display-1{font-size: 2rem;}
-	.display-2, .display-3{font-size: 1.15rem;}
+	.display-2, .display-3{font-size: 1rem;}
 	.display-4, .display-5{font-size: 1rem;}
-
+	h1{font-size: 2rem;}
 	h2{margin-top: 25px;}
 	h4{font-size: 14px; margin-top: 0;}
 	.logo{width: 170px; height: 27px;}
@@ -892,8 +935,15 @@ input[type=number] {-moz-appearance: textfield;} /* Firefox */
 	.about-us-heading{margin: 5px 25px;}
 
 	.centered-services{top: 25%;}
-
 	.Our-Work-img{width: 250px; height: 140px; margin: 5px 0px 5px 35px;}
 	.Our-Work-p{font-size: 13px; margin: 0 0 0 45px;}
+	
+	.data-analytics-img{width: 290px; height: 210px; margin-top: 10px; margin-bottom: 25px;}
+	.UI-UX-Designing-img{width: 290px; height: 210px; margin-bottom: 25px;}
+	.UI-UX-Designing .list-unstyled{margin-left: 40px;}
+	.web-development-img{width: 290px; height: 210px;}
+	.web-development .list-unstyled{margin-left: 40px;}
+	.digital-marketing-img{width: 290px; height: 210px; margin-bottom: 25px;}
+	.few-words-img{width: 290px; height: 210px; margin-top: 0px; margin-bottom: 25px;}
 
 }
